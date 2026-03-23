@@ -1,0 +1,17 @@
+data/*
+!data/.gitkeep
+
+pycache/
+*.pyc
+*.pyo
+
+venv/
+env/
+
+.ipynb_checkpoints/
+
+models/.pkl
+models/.joblib
+
+.DS_Store
+Thumbs.db

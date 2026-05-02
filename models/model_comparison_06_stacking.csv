@@ -1,0 +1,7 @@
+,model,algorithm,smote,roc_auc,pr_auc,f1,f2,fit_time_sec,best_params,best_threshold,f2_tuned,fit_time_min,fit_time
+LightGBM_con_smote,LightGBM_con_smote,LightGBM,True,0.9984,0.9269,0.8542,0.8433,0.0,"{'algorithm': 'LightGBM', 'smote': True}",0.2646,0.8659,0.0,0.0s
+Weighted_probability_ensemble,Weighted_probability_ensemble,WeightedEnsemble,mixto,0.9984,0.9269,0.8542,0.8433,0.0,"{'algorithm': 'WeightedEnsemble', 'smote': 'mixto', 'weights': {'LightGBM_con_smote': np.float64(1.0), 'XGBoost_sin_smote': np.float64(0.0), 'RandomForest_sin_smote': np.float64(0.0)}, 'note': 'Pesos seleccionados sobre test; diagnóstico, no estimación final insesgada.'}",0.2646,0.8659,0.0,0.0s
+LightGBM_sin_smote,LightGBM_sin_smote,LightGBM,False,0.9985,0.9266,0.851,0.824,0.0,"{'algorithm': 'LightGBM', 'smote': False}",0.1304,0.8692,0.0,0.0s
+Stacking_prefit_diverse,Stacking_prefit_diverse,Stacking,mixto,0.9982,0.9213,0.8502,0.8413,0.0,"{'algorithm': 'Stacking', 'smote': 'mixto', 'base_models': ['LightGBM_con_smote', 'XGBoost_sin_smote', 'RandomForest_sin_smote'], 'note': ""cv='prefit'; interpretación exploratoria por posible optimismo.""}",0.2374,0.8577,0.0,0.0s
+XGBoost_sin_smote,XGBoost_sin_smote,XGBoost,False,0.9981,0.9121,0.5719,0.7601,0.0,"{'algorithm': 'XGBoost', 'smote': False}",0.9085,0.8548,0.0,0.0s
+RandomForest_sin_smote,RandomForest_sin_smote,RandomForest,False,0.9972,0.8966,0.6788,0.81,0.0,"{'algorithm': 'RandomForest', 'smote': False}",0.7493,0.8348,0.0,0.0s

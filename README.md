@@ -1,6 +1,6 @@
-# 🏦 Detección de Fraude Bancario mediante Machine Learning
+# Detección de Fraude Bancario mediante Machine Learning
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este Trabajo de Fin de Grado (TFG) tiene como objetivo desarrollar un sistema de detección de fraude en transacciones bancarias utilizando técnicas de Machine Learning.
 
@@ -8,7 +8,7 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Analizar y comprender el comportamiento de las transacciones fraudulentas.
 * Realizar un Análisis Exploratorio de Datos (EDA) completo.
@@ -20,14 +20,14 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 
 ---
 
-## 🧰 Librerías Utilizadas
+## Librerías Utilizadas
 
-### 📊 Análisis y manipulación de datos
+### Análisis y manipulación de datos
 
 * **pandas** → Manipulación y limpieza de datos.
 * **numpy** → Operaciones numéricas y estructuras eficientes.
 
-### 📈 Visualización
+### Visualización
 
 * **matplotlib** → Gráficos básicos.
 * **seaborn** → Visualización avanzada y análisis estadístico.
@@ -49,16 +49,16 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 
 * **imbalanced-learn** → Implementación de SMOTE y otras técnicas.
 
-### 🔍 Clustering
+### Clustering
 
 * **scikit-learn** → KMeans, DBSCAN, etc.
 * **yellowbrick** → Visualización de resultados de clustering.
 
-### 🧠 Interpretabilidad
+### Interpretabilidad
 
 * **lime** → Explicación local de predicciones del modelo.
 
-### 🛠️ Utilidades
+### Utilidades
 
 * **joblib** → Serialización de modelos.
 * **tqdm** → Barras de progreso.
@@ -66,7 +66,7 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 
 ---
 
-## ⚙️ Metodología
+## Metodología
 
 1. **Carga y limpieza de datos**
 2. **Análisis Exploratorio de Datos (EDA)**
@@ -83,7 +83,7 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 
 ---
 
-## 📊 Métricas de Evaluación
+## Métricas de Evaluación
 
 Dado el desbalanceo del dataset, se priorizan:
 
@@ -91,10 +91,11 @@ Dado el desbalanceo del dataset, se priorizan:
 * Recall
 * F1-score
 * ROC-AUC
+* PR-AUC
 
 ---
 
-## ⚠️ Desafíos del Proyecto
+## Desafíos del Proyecto
 
 * Alto desbalanceo de clases.
 * Riesgo de overfitting.
@@ -103,7 +104,7 @@ Dado el desbalanceo del dataset, se priorizan:
 
 ---
 
-## 🚀 Resultados Esperados
+## Resultados Esperados
 
 * Modelo robusto capaz de detectar fraude con alta precisión.
 * Identificación de patrones relevantes en las transacciones.
@@ -111,13 +112,13 @@ Dado el desbalanceo del dataset, se priorizan:
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ├── data/
 ├── src/
+├── notebooks/
 ├── models/
-├── reports/
 ├── README_EN.md
 ├── requirements.txt
 └── README.md
@@ -125,6 +126,6 @@ Dado el desbalanceo del dataset, se priorizan:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-Trabajo desarrollado como parte del Trabajo de Fin de Grado en Ciencia de Datos.
+Trabajo desarrollado como parte del Trabajo de Fin de Grado en Ciencia de Datos, por martina Blay y Aldán García

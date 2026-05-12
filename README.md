@@ -33,19 +33,19 @@ El proyecto aborda el problema del fraude como una tarea de clasificación binar
 * **seaborn** → Visualización avanzada y análisis estadístico.
 * **missingno** → Análisis de valores nulos.
 
-### 🔍 Análisis Exploratorio (EDA)
+### Análisis Exploratorio (EDA)
 
 * **ydata-profiling** → Generación automática de informes.
 * **scipy** → Estadística avanzada.
 
-### 🤖 Machine Learning
+### Machine Learning
 
 * **scikit-learn** → Modelos, métricas y pipelines.
 * **xgboost** → Modelo basado en boosting de alto rendimiento.
 * **lightgbm** → Algoritmo eficiente para grandes datasets.
 * **catboost** → Especialmente útil con variables categóricas.
 
-### ⚖️ Desbalanceo de clases
+### Desbalanceo de clases
 
 * **imbalanced-learn** → Implementación de SMOTE y otras técnicas.
 
